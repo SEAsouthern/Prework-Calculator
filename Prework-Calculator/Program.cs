@@ -11,7 +11,7 @@ namespace Prework_Calculator
             Multiply(2, 3);
             Divide(15, 5);
         }
-
+        // The below code takes in two parameters and returns their sum.
         static int Add(int x, int y)
         {
             int sum = x + y;
@@ -20,6 +20,7 @@ namespace Prework_Calculator
 
         }
 
+        // The below code takes in two parameters and subtracts the second from the first.
         static int Subtract(int x, int y)
         {
             int sub = x - y;
@@ -27,7 +28,7 @@ namespace Prework_Calculator
             return sub;
         }
 
-        
+        // The below code takes in two parameters and multiplies them.
         static int Multiply(int x, int y)
         {
             int multi = x * y;
@@ -35,6 +36,7 @@ namespace Prework_Calculator
             return multi;
         }
 
+        // The below code takes in two parameters and divides the first by the second.
         static int Divide(int x, int y)
         {
             int div = x / y;
